@@ -7,7 +7,7 @@ body, h1, h2, p, ul {
 /* General page styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ff9800;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -27,7 +27,7 @@ header {
 /* Card component showcasing the box model */
 .card {
     background-color: #fff;
-    border: 2px solid #ccc;
+    border: 5px solid #0f0;
     padding: 20px;        /* Padding inside the box */
     margin: 15px auto;    /* Space outside the box */
     max-width: 600px;
@@ -38,6 +38,9 @@ header {
 .highlight {
     border-color: #ff9800;
     background-color: #fff8e1;
+    padding: 25px;
+    margin: 25px auto;
+    border: 10px double #f00;
 }
 
 /* List styling */
